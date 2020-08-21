@@ -360,7 +360,7 @@ box-shadow: -10px -10px 17px -16px rgba(0,0,0,0.75);
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 400px;
+        grid-template-columns: 1fr 500px;
         grid-template-areas: 
             "title img"
             "subtitle img"
