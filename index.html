@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua's Portfolio</title>
+    <href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3c8c075a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo" id="home">
+            <img src="img/lg.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!--introduction-->
+    <section class="intro" >
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Joshua Obeng </strong> <strong>Agyemang</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end Developer</p>
+        <img src="img/Josh.png" alt="a boujie picture of Josh" class="intro__img">
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__subtitle--services">What I Do</h2>
+        <div class="services">
+
+            <div class="service">
+                <h3>Creative Design</h3>
+                <p>Each and every individual has their own ideas and concepts of how their logos and flyers should represent their business I come to convey these ideas into productive concepts</p>
+            </div>  <!--/ service-->
+
+            <div class="service">
+                <h3>Branding</h3>
+                <p>Going beyond the superficial layers of design lies the psychological impact of branding, over the years through research I have come to find myself to be proficient in branding businesses</p>
+            </div>  <!--/ service-->
+
+            <div class="service">
+                <h3>Development</h3>
+                <p>The world changing and there is the need to use robust techonologies to integrate into our business processes in order to keep up with the market and beat competition</p>
+            </div>  <!--/ service-->
+
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who am I?</h2>
+        <p class="section__subtitile section__subtitle--about">Designer & Developer</p>
+        
+        <div class="about-me__body">
+            <p>I consider myself to be devpreneur, (basically a developer and an entrepreneur).</p>
+            <p>A short biography about myself would be put this way; I am a recent graduant from the University of Professional Studies Accra with a first degree in Bachelor of Business Administration. Although i may hold a degree separate from my profession i beleive the concept of design and development when combined with business yields unraveled results. Some of the areas and skills i find myself to be strong in are; </p>
+            <p>Marketing, Entrepreneurship, Administration, Graphic Designing (Adobe, Illustrator & Photoshop ), Web Development (HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP, & WORDPRESS.ORG)</p>
+        </div>
+        <img src="img/Josh.png" alt="boujie" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Click on an image to view Project</p>
+            
+            <div class="portfolio">
+                <!--Portfolio item 01-->
+                <a href="aiportfolio.html" class="portfolio__item">
+                    <img src="img/ainaturals.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 02-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/FI-01.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 03-->
+                <a href="https://chopbetter.com" class="portfolio__item">
+                    <img src="img/chopbetter.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 04-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/LI-01.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 05-->
+                <a href="https://ncsaghana.com/" class="portfolio__item">
+                    <img src="img/NCSA.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 06-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/JS-01.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 07-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/cook-01.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--Portfolio item 08-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/clothing-01.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:joshuaobeng.a@gmail.com" target="_blank" class="btn">Send an Email</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/_jsh_ua/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://wa.me/+233552354808" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+    </footer>
+
+        <script src="js/function.js"></script>
+</body>
+</html>
